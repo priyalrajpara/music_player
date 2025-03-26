@@ -23,7 +23,7 @@ A simple and interactive music player built with HTML, CSS, and JavaScript. This
 ## How to Use 🚀
 
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/priyalrajpara/music_player.git
   ```
 2. Open the `index.html` file in your browser to view the music player.
