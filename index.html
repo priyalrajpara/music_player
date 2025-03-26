@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <script src="script.js"></script>
+    <title>Music Player</title>
+</head>
+<body>
+   
+<div class="player">
+    <div class="cover" id="cover"></div>
+
+    <nav>
+        <div class="left">
+            <i class="fa-solid fa-bars"></i>
+            <h6>Your Playlist</h6>
+        </div>
+        <div class="right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </nav>
+
+        <div class="mainplayer">
+
+            <div class="title">
+                <h1>Happier Than Ever</h1>
+            </div>
+
+            <div class="small">
+                <!-- <i class="fa-solid fa-reply"></i> -->
+                <h5>Billie Eilish</h5>
+                <!-- <i class="fa-solid fa-volume-high"></i> -->
+            </div>
+
+            <div class="total">
+                <div class="played">
+                    <div class="circle"></div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <i class="fa-solid fa-backward"></i>
+                <i class="fa-solid fa-play"></i>
+                <i class="fa-solid fa-forward"></i>
+            </div>
+        </div>
+
+       <div class="musicplayer">
+
+            <div class="song1" id="song1" data-audio="happier.mp3">
+                <div class="info">
+                    <div class="img one"></div>
+                    <div class="name">
+                        <h5>Happier Than Ever</h5>
+                        <p>Billie Eilish</p>
+                    </div>
+                </div>
+                <div class="state current">
+                    <i class="fa-solid fa-music"></i>
+                </div>
+            </div>
+
+            <div class="song2" id="song2" data-audio="follow.mp3">
+                <div class="info">
+                    <div class="img two"></div>
+                    <div class="name">
+                        <h5>Follow You</h5>
+                        <p>Noizy</p>
+                    </div>
+                </div>
+                
+                <div class="state">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+
+            <div class="song3" id="song3" data-audio="good.mp3">
+                <div class="info">
+                    <div class="img three"></div>
+                    <div class="name">
+                        <h5>I'm Good</h5>
+                        <p>Bebe Rexha, David Guetta</p>
+                    </div>
+                </div>
+                
+                <div class="state">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+
+            <div class="song4" id="song4" data-audio="sunflower.mp3">
+                <div class="info">
+                    <div class="img four"></div>
+                    <div class="name">
+                        <h5>Sunflower</h5>
+                        <p>Post Malone, Swae Lee</p>
+                    </div>
+                </div>
+                <div class="state">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+
+            <div class="song5" id="song5" data-audio="liggi2.mp3">
+                <div class="info">
+                    <div class="img five"></div>
+                    <div class="name">
+                        <h5>Liggi</h5>
+                        <p>Ritviz</p>
+                    </div>
+                </div>
+                <div class="state">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
