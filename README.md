@@ -30,17 +30,17 @@ A simple and interactive music player built with HTML, CSS, and JavaScript. This
 
 
 ## **Folder Structure**
-
+```
 music_player/
 ├── index.html       # Main HTML file
 ├── style.css        # CSS file for styling
 ├── script.js        # JavaScript file for interactivity
 ├── LICENSE          # License file
 └── README.md        # Project documentation
-
+```
 
 ## **Screenshots**
-![Gallery Screenshot](photos/sample.png)
+![Gallery Screenshot](sample.png)
 
 ## **License**
 This project is licensed under the MIT License. Feel free to use or modify it.
